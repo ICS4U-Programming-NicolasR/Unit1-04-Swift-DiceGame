@@ -16,7 +16,7 @@ var userNum: Int?
 userNum = nil
 repeat {
     // ask the user for their number
-    print("Please enter a number for the \(Int(counter + 1)) time")
+    print("Please enter a number from 1-6 for the \(Int(counter + 1)) time")
     userNum = Int(readLine()!)
     //Try to get the input as a double if the response is nil then print an error
     if userNum != nil {
